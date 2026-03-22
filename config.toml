@@ -1,0 +1,183 @@
+baseURL = "https://3dprintcosmetics.com/"
+languageCode = "en-us"
+title = "3D Print Cosmetics"
+theme = "printwire"
+
+[params]
+tagline       = "Bespoke 3D printed cosmetics — custom lipstick moulds, compact designs, and personalised beauty product manufacturing."
+description   = "3D Print Cosmetics covers additive manufacturing in the beauty industry — from custom cosmetic packaging and mould tooling to bioprinted skincare formulations and personalised beauty."
+keywords      = "3D printed cosmetics, cosmetic packaging AM, lipstick mould 3D print, custom beauty products, personalised cosmetics, cosmetic tooling"
+logoEmoji     = "💄"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#f472b6"
+colorPrimaryDark  = "#ec4899"
+colorPrimaryLight = "#f9a8d4"
+colorBgDark       = "#0f0510"
+colorBgSection    = "#140a18"
+colorBgCard       = "#1a0d20"
+colorBgCardHover  = "#211028"
+
+fontPrimary   = "Josefin+Sans"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1920&q=80"]
+
+heroEyebrow  = "Beauty Additive Manufacturing"
+heroTitle    = "3D Print <em>Cosmetics</em>"
+heroSubtitle = "Bespoke 3D printed cosmetics — custom lipstick moulds, compact designs, and personalised beauty product manufacturing."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1920&q=80"
+
+overviewTitle   = "Custom Cosmetic Manufacturing"
+overviewText    = "Short-run lipstick cases, custom compact tooling, and personalised foundation shades — additive manufacturing gives indie beauty brands the tools of a major manufacturer."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Print Cosmetics Services"
+servicesSubtitle = "Bespoke 3D printed cosmetics — custom lipstick moulds, compact designs, and personalised beauty product manufacturing."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Bespoke 3D printed cosmetics — custom lipstick moulds, compact designs, and personalised beauty product manufacturing."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 430
+suffix = "B+"
+label  = "Global Beauty Market (USD)"
+
+[[params.stats]]
+count  = 60
+suffix = "%"
+label  = "Growth in Custom Beauty"
+
+[[params.stats]]
+count  = 5
+suffix = "x"
+label  = "Faster Tooling vs Conventional"
+
+[[params.stats]]
+count  = 100
+suffix = "+"
+label  = "Custom SKUs from One Printer"
+
+
+[[params.applications]]
+title       = "Custom Cosmetic Packaging"
+description = "Bespoke lipstick cases, compact bodies, and mascara wands in luxury polymer and metal finishes."
+image       = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1920&q=80"
+
+[[params.applications]]
+title       = "Mould Tooling"
+description = "Injection mould inserts for cosmetic components — faster and cheaper than machined steel for short runs."
+image       = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1920&q=80"
+
+[[params.applications]]
+title       = "Personalised Products"
+description = "Individual foundation shades, custom fragrance bottles, and bespoke beauty gift sets."
+image       = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1920&q=80"
+
+[[params.applications]]
+title       = "R&D Prototyping"
+description = "Concept product models and packaging prototypes for beauty brand product development."
+image       = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "💄"
+title       = "Cosmetic Package Design"
+description = "Custom lipstick cases, compact bodies, and applicators in SLA resin or SLS nylon — brand-specific geometry and finish."
+
+[[params.servicesPreview]]
+icon        = "⚙️"
+title       = "Cosmetic Mould Tooling"
+description = "Short-run injection mould inserts for cosmetic components — weeks not months, at a fraction of the cost."
+
+[[params.servicesPreview]]
+icon        = "✨"
+title       = "Personalised Beauty AM"
+description = "On-demand personalised cosmetic products — custom shade mixing, monogrammed packaging, and gift boxes."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Product Development"
+description = "Concept-to-production support for indie beauty brands entering personalised cosmetic manufacturing."
+
+
+[[params.services]]
+name        = "Cosmetic Package Design"
+description        = "Custom lipstick cases, compact bodies, and applicators in SLA resin or SLS nylon — brand-specific geometry and finish."
+icon        = "💄"
+image        = "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80"
+
+[[params.services]]
+name        = "Cosmetic Mould Tooling"
+description        = "Short-run injection mould inserts for cosmetic components — weeks not months, at a fraction of the cost."
+icon        = "⚙️"
+image        = "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80"
+
+[[params.services]]
+name        = "Personalised Beauty AM"
+description        = "On-demand personalised cosmetic products — custom shade mixing, monogrammed packaging, and gift boxes."
+icon        = "✨"
+image        = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80"
+
+[[params.services]]
+name        = "Product Development"
+description        = "Concept-to-production support for indie beauty brands entering personalised cosmetic manufacturing."
+icon        = "🔬"
+image        = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintskincare.com"
+url         = "https://3dprintskincare.com"
+description = "Skincare & beauty AM"
+
+[[params.clusterLinks]]
+name        = "3dprintfood.com"
+url         = "https://3dprintfood.com"
+description = "Food 3D printing"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[params.clusterLinks]]
+name        = "3dprintjewelry.com"
+url         = "https://3dprintjewelry.com"
+description = "Jewelry 3D printing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
