@@ -1,9 +1,18 @@
 baseURL = "https://3dprintcosmetics.com/"
 languageCode = "en-us"
 title = "3D Print Cosmetics"
-theme = "printwire"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Cosmetics"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">COSMETICS</span>'
 tagline       = "Bespoke 3D printed cosmetics — custom lipstick moulds, compact designs, and personalised beauty product manufacturing."
 description   = "3D Print Cosmetics covers additive manufacturing in the beauty industry — from custom cosmetic packaging and mould tooling to bioprinted skincare formulations and personalised beauty."
 keywords      = "3D printed cosmetics, cosmetic packaging AM, lipstick mould 3D print, custom beauty products, personalised cosmetics, cosmetic tooling"
