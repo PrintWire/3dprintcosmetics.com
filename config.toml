@@ -11,6 +11,7 @@ title = "3D Print Cosmetics"
       unsafe = true
 
 [params]
+ogImage       = "/images/04_vascularized_heart.png"
 siteName      = "3D Print Cosmetics"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">COSMETICS</span>'
 tagline       = "Bespoke 3D printed cosmetics — custom lipstick moulds, compact designs, and personalised beauty product manufacturing."
